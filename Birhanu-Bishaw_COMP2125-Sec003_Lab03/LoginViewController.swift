@@ -27,7 +27,7 @@ class LoginViewController: UIViewController {
     @IBAction func btnLoginTapped(_ sender: UIButton) {
         performSegue(withIdentifier: "segueToClientInfo", sender: self)
     
-    } // end action
+    } // end of action
     
     // pass username to the client view controller
     
